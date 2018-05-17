@@ -12,7 +12,7 @@
 
 		<div class="index">
 			
-			<header>
+			<header class="block">
 
 				<h1 hidden="hidden">Serena Liao's Portfolio</h1>
 
@@ -36,16 +36,17 @@
 			</header>
 
 			<main>
-				<div class="about">
+				<div class="about block">
 					<h2>About.</h2>
 					<div class="row">
 						<figure class="col-md-4">
-							<img src="" alt="serena's photo">
-							<figcaption>Serena Liao</figcaption>
+							<img src="img/photo.jpg" alt="serena's photo">
+							<figcaption><span>Serena</span> Liao</figcaption>
 						</figure>
 						<div class="col-md-8">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptatibus ea, reiciendis aut nisi voluptates deleniti pariatur, quas qui tempore perspiciatis odio assumenda, possimus a maiores magnam necessitatibus ipsa praesentium tenetur. Recusandae provident sunt in quidem, explicabo veniam, quibusdam amet rerum. Nemo atque sit nobis recusandae architecto iure, voluptas iusto.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo vitae quod enim alias optio sequi quae nihil sunt dolores in?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis est magnam, incidunt excepturi ipsam culpa reiciendis aperiam dicta cumque soluta.</p>
 						</div>
 					</div>					
 				</div>

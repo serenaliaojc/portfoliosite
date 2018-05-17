@@ -359,10 +359,14 @@ body {
  * 		
  */
 .index {
+  /* # Block */
   /* # Header */
-  /* # Headings */ }
+  /* # Headings */
+  /* # About */ }
+  .index .block {
+    min-height: 576px; }
   .index header {
-    margin: 9rem 0 5rem 0;
+    padding-top: 9rem;
     text-align: center; }
     .index header img {
       max-width: 180px; }
@@ -375,4 +379,18 @@ body {
         font-weight: bold; }
   .index h2 {
     color: #54a2cc;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 3rem; }
+  .index .about {
+    padding-top: 3rem; }
+    .index .about img {
+      max-width: 200px;
+      margin: 0.5rem auto;
+      display: block; }
+    .index .about figcaption {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 1rem 0; }
+      .index .about figcaption span {
+        color: #54a2cc; }

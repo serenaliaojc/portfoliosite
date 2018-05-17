@@ -7,10 +7,15 @@
  */
 
 .index {
+	/* # Block */
+	.block {
+		min-height: 576px;
+	}
 
 	/* # Header */
 	header {
-		margin: 9rem 0 5rem 0;
+		// padding: 9rem 0 auto 0;
+		padding-top: 9rem;
 		text-align: center;
 		img {
 			max-width: 180px;
@@ -31,6 +36,26 @@
 	h2 {
 		color: $color__main-brand;
 		text-align: center;
+		margin-bottom: 3rem;
+	}
+
+	/* # About */
+	.about {
+		padding-top: 3rem;
+		img {
+			max-width: 200px;
+			margin: 0.5rem auto;
+			display: block;
+		}
+		figcaption {
+			text-align: center;
+			font-size: 1.5rem;
+			font-weight: bold;
+			margin: 1rem 0;
+			span {
+				color: $color__main-brand;
+			}
+		}
 	}
 
 }
