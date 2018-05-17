@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Serena Liao</title>
 </head>
@@ -36,7 +37,7 @@
 			</header>
 
 			<main>
-				<div class="about block">
+				<section class="about block">
 					<h2>About.</h2>
 					<div class="row">
 						<figure class="col-md-4">
@@ -49,10 +50,45 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis est magnam, incidunt excepturi ipsam culpa reiciendis aperiam dicta cumque soluta.</p>
 						</div>
 					</div>					
-				</div>
+				</section>
+
+				<section class="works block">
+					<h2>Latest Works.</h2>
+					<div class="row">
+						
+					</div>
+					<button>View More</button>
+				</section>
+
+				<section class="contact">
+					<h2>Contact Me.</h2>
+				</section>
+
+				<section class="blog block">
+					<h2>Blog.</h2>
+					<button>See All</button>
+				</section>
 			</main>
 
-			<footer></footer>
+			<footer>
+				<nav class="footer-menu">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Works</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					<ul class="social">
+						<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fab fa-github"></i></a></li>
+						<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+					</ul>
+				</nav>
+				<p>© 2018 - Serena Liao. All rights reserved.</p>
+			</footer>
 
 		</div>
 

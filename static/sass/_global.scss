@@ -16,6 +16,7 @@ $color__main-darker: #377799;
 $color__main-blue: #00a1e9;
 $color__main-pink: #ff9283;
 $color__main-purple: #9a86cc;
+$color__main-gray: #aaa;
 
 // $color__background-body: #fff;
 // $color__background-screen: #f1f1f1;
@@ -78,7 +79,7 @@ body {
 }
 
 
-/* # Main Navigation */
+/* # Navigation */
 .main-nav {
 	ul {
 		margin: 1.5rem auto;
@@ -97,5 +98,51 @@ body {
 				color: #000;
 			}
 		}
+	}
+}
+
+
+/* # Footer */
+footer {
+	.footer-menu {
+		ul {
+			margin: 1rem 0;
+			padding: 0;
+			list-style: none;
+			display: inline-block;
+			li {
+				margin: 0 0.5rem;
+				display: inline-block;
+				text-transform: uppercase;
+				a {
+					font-size: 0.8rem;
+					color: #000;
+					&:hover {
+						color:$color__main-brand;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		ul.social {
+			float: right;
+			li {
+				a {
+					text-align: right;
+					font-size: 1.4rem;
+				}
+			}
+		}
+	}
+	nav {
+		display: inline-block;
+		width: 100%;
+	}
+	p {
+		clear: both;
+		text-align: center;
+		font-size: 0.9rem;
+		padding: 1rem 0;
+		border-top: 1px solid #000;
 	}
 }

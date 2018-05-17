@@ -333,7 +333,7 @@ body {
 .container {
   max-width: 900px; }
 
-/* # Main Navigation */
+/* # Navigation */
 .main-nav ul {
   margin: 1.5rem auto;
   list-style: none;
@@ -349,6 +349,37 @@ body {
     .main-nav ul li a {
       font-size: 0.9rem;
       color: #000; }
+
+/* # Footer */
+footer .footer-menu ul {
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block; }
+  footer .footer-menu ul li {
+    margin: 0 0.5rem;
+    display: inline-block;
+    text-transform: uppercase; }
+    footer .footer-menu ul li a {
+      font-size: 0.8rem;
+      color: #000; }
+      footer .footer-menu ul li a:hover {
+        color: #54a2cc;
+        text-decoration: none; }
+footer .footer-menu ul.social {
+  float: right; }
+  footer .footer-menu ul.social li a {
+    text-align: right;
+    font-size: 1.4rem; }
+footer nav {
+  display: inline-block;
+  width: 100%; }
+footer p {
+  clear: both;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem 0;
+  border-top: 1px solid #000; }
 
 /* # Pages */
 /** 
