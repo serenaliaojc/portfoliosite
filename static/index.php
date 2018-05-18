@@ -54,15 +54,55 @@
 
 				<section class="works block">
 					<h2>Latest Works.</h2>
-					<div class="row">
-						
+					<div class="card-deck">
+						<div class="card">
+							<img src="img/works/pamschallenge.png" alt="" class="card-img">
+							<div class="card-body">
+								<h3 class="card-title"><a href="">Lorem ipsum dolor sit.</a></h3>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, at.</p>
+							</div>
+						</div>
+						<div class="card">
+							<img src="img/works/pamschallenge.png" alt="" class="card-img">
+							<div class="card-body">
+								<h3 class="card-title"><a href="">Lorem ipsum dolor sit amet, consectetur.</a></h3>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, at.</p>
+							</div>
+						</div>
+						<div class="card">
+							<img src="img/works/pamschallenge.png" alt="" class="card-img">
+							<div class="card-body">
+								<h3 class="card-title"><a href="">Lorem ipsum dolor sit.</a></h3>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, at.</p>
+							</div>
+						</div>
 					</div>
-					<button>View More</button>
+					<div class="row justify-center">
+						<button>View More</button>
+					</div>
 				</section>
 
 				<section class="blog block">
 					<h2>Blog.</h2>
-					<button>See All</button>
+					<div class="card-deck">
+						<div class="card">
+							<img src="" alt="" class="card-img">
+							<div class="card-img-overlay">
+								<h3 class="card-title"><a href="">Lorem ipsum dolor sit.</a></h3>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt qui quam minus eum, quis veritatis voluptatibus suscipit eos, consequatur aut enim ut cupiditate obcaecati in!</p>
+							</div>
+						</div>
+						<div class="card">
+							<img src="" alt="" class="card-img">
+							<div class="card-img-overlay">
+								<h3 class="card-title"><a href="">Lorem ipsum dolor sit.</a></h3>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam nulla soluta, qui accusantium quis in cumque hic consectetur error numquam molestiae perferendis iste impedit quaerat molestias commodi?</p>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-center">
+						<button>See All</button>
+					</div>
 				</section>
 
 				<section class="contact">

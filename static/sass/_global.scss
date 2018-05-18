@@ -87,6 +87,18 @@ a {
 	}
 }
 
+/* # Buttons */
+button {
+	background:$color__main-brand;
+	color:#fff;
+	border: 1px solid $color__main-brand;
+	padding: 0.5rem 1rem;
+	text-align: center;
+	&:hover {
+		color:$color__main-brand;
+		background:#fff;
+	}
+}
 
 /* # Navigation */
 .main-nav {

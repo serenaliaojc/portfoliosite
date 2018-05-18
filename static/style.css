@@ -340,6 +340,17 @@ a {
     color: #54a2cc;
     text-decoration: none; }
 
+/* # Buttons */
+button {
+  background: #54a2cc;
+  color: #fff;
+  border: 1px solid #54a2cc;
+  padding: 0.5rem 1rem;
+  text-align: center; }
+  button:hover {
+    color: #54a2cc;
+    background: #fff; }
+
 /* # Navigation */
 .main-nav ul {
   margin: 1.5rem auto;
@@ -398,7 +409,9 @@ footer p {
   /* # Block */
   /* # Header */
   /* # Headings */
+  /* # Buttons */
   /* # About */
+  /* # Works */
   /* # Contact */ }
   .index .block {
     min-height: 576px; }
@@ -418,6 +431,10 @@ footer p {
     color: #54a2cc;
     text-align: center;
     margin-bottom: 3rem; }
+  .index h3 {
+    font-size: 1.2rem; }
+  .index button {
+    margin: 1.5rem auto; }
   .index .about {
     padding-top: 3rem; }
     .index .about img {
@@ -431,6 +448,12 @@ footer p {
       margin: 1rem 0; }
       .index .about figcaption span {
         color: #54a2cc; }
+  .index .works .card-img {
+    height: 180px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 0%;
+       object-position: 50% 0%; }
   .index .contact {
     min-height: 400px;
     text-align: center; }
