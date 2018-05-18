@@ -58,4 +58,25 @@
 		}
 	}
 
+	/* # Contact */
+	.contact {
+		min-height: 400px;
+		text-align: center;
+		ul {
+			width: 100%;
+			margin: 1rem auto;
+			padding: 0;
+			list-style: none;
+			display: inline-block;
+			li {
+				margin: 0 2rem;
+				display: inline-block;
+				text-transform: uppercase;
+				a {
+					font-size: 4rem;
+				}
+			}
+		}
+	}
+
 }

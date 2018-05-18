@@ -60,13 +60,21 @@
 					<button>View More</button>
 				</section>
 
-				<section class="contact">
-					<h2>Contact Me.</h2>
-				</section>
-
 				<section class="blog block">
 					<h2>Blog.</h2>
 					<button>See All</button>
+				</section>
+
+				<section class="contact">
+					<h2>Contact Me.</h2>
+					<p>Nice to meet you.</p>
+					<ul>
+						<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fab fa-github"></i></a></li>
+						<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+					</ul>
 				</section>
 			</main>
 

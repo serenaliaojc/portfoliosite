@@ -78,6 +78,15 @@ body {
 	max-width: 900px;
 }
 
+/* # Links */
+a {
+	color: #000;
+	&:hover {
+		color:$color__main-brand;
+		text-decoration: none;
+	}
+}
+
 
 /* # Navigation */
 .main-nav {
@@ -95,7 +104,10 @@ body {
 			text-transform: uppercase;
 			a {
 				font-size: 0.9rem;
-				color: #000;
+				&:hover {
+					color:#000;
+					font-weight: bold;
+				}
 			}
 		}
 	}
@@ -116,11 +128,6 @@ footer {
 				text-transform: uppercase;
 				a {
 					font-size: 0.8rem;
-					color: #000;
-					&:hover {
-						color:$color__main-brand;
-						text-decoration: none;
-					}
 				}
 			}
 		}
