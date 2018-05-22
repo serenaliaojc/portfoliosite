@@ -1,0 +1,46 @@
+.page-header {
+	margin-bottom: 3rem;
+	padding: 1rem;
+	vertical-align: middle;
+	img {
+		max-width: 50px;
+		display: inline-block;
+	}
+	p {
+		display: inline-block;
+		margin: 0 1rem;
+		font-size: 1.8rem;
+		vertical-align: middle;
+		color: $color__main-brand;
+	}
+	.page-menu {
+		display: inline-block;
+		float: right;
+		ul {
+			margin: 1rem 0;
+			padding: 0;
+			list-style: none;
+			display: inline-block;
+			li {
+				margin: 0 0.8rem;
+				display: inline-block;
+				text-transform: uppercase;
+				a {
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+}
+
+.page {
+	h1 {
+		color:$color__main-brand;
+		text-align: center;
+	}
+	.page-intro {
+		margin: 2rem auto 3rem auto;
+		max-width: 500px;
+		text-indent: 2rem;
+	}
+}

@@ -350,6 +350,10 @@ button {
   button:hover {
     color: #54a2cc;
     background: #fff; }
+    button:hover a {
+      color: #54a2cc; }
+  button a {
+    color: #fff; }
 
 /* # Navigation */
 .main-nav ul {
@@ -371,31 +375,33 @@ button {
         font-weight: bold; }
 
 /* # Footer */
-footer .footer-menu ul {
-  margin: 1rem 0;
-  padding: 0;
-  list-style: none;
-  display: inline-block; }
-  footer .footer-menu ul li {
-    margin: 0 0.5rem;
+footer {
+  margin-top: 3rem; }
+  footer .footer-menu ul {
+    margin: 1rem 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block; }
+    footer .footer-menu ul li {
+      margin: 0 0.5rem;
+      display: inline-block;
+      text-transform: uppercase; }
+      footer .footer-menu ul li a {
+        font-size: 0.8rem; }
+  footer .footer-menu ul.social {
+    float: right; }
+    footer .footer-menu ul.social li a {
+      text-align: right;
+      font-size: 1.4rem; }
+  footer nav {
     display: inline-block;
-    text-transform: uppercase; }
-    footer .footer-menu ul li a {
-      font-size: 0.8rem; }
-footer .footer-menu ul.social {
-  float: right; }
-  footer .footer-menu ul.social li a {
-    text-align: right;
-    font-size: 1.4rem; }
-footer nav {
-  display: inline-block;
-  width: 100%; }
-footer p {
-  clear: both;
-  text-align: center;
-  font-size: 0.9rem;
-  padding: 1rem 0;
-  border-top: 1px solid #000; }
+    width: 100%; }
+  footer p {
+    clear: both;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    border-top: 1px solid #000; }
 
 /* # Pages */
 /** 
@@ -469,3 +475,64 @@ footer p {
         text-transform: uppercase; }
         .index .contact ul li a {
           font-size: 4rem; }
+
+.page-header {
+  margin-bottom: 3rem;
+  padding: 1rem;
+  vertical-align: middle; }
+  .page-header img {
+    max-width: 50px;
+    display: inline-block; }
+  .page-header p {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    vertical-align: middle;
+    color: #54a2cc; }
+  .page-header .page-menu {
+    display: inline-block;
+    float: right; }
+    .page-header .page-menu ul {
+      margin: 1rem 0;
+      padding: 0;
+      list-style: none;
+      display: inline-block; }
+      .page-header .page-menu ul li {
+        margin: 0 0.8rem;
+        display: inline-block;
+        text-transform: uppercase; }
+        .page-header .page-menu ul li a {
+          font-size: 1rem; }
+
+.page h1 {
+  color: #54a2cc;
+  text-align: center; }
+.page .page-intro {
+  margin: 2rem auto 3rem auto;
+  max-width: 500px;
+  text-indent: 2rem; }
+
+.card-columns {
+  -webkit-column-count: 2;
+          column-count: 2; }
+  .card-columns img {
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 0%;
+       object-position: 50% 0%; }
+
+.project-single h2 {
+  margin: 3rem 0 2rem 0; }
+.project-single button {
+  margin: 2rem auto; }
+.project-single .project-show {
+  text-align: center; }
+.project-single .carousel-item img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 0%;
+     object-position: 50% 0%; }
+.project-single .project-tech img {
+  width: 100%; }
