@@ -48,24 +48,24 @@ include_once 'parts/header.php';
 					<h2>Latest Works.</h2>
 					<div class="card-deck">
 						<div class="card">
-							<img src="img/works/pamschallenge.png" alt="" class="card-img">
+							<img src="img/works/pamschallenge/logo_mini.png" alt="" class="card-img">
 							<div class="card-body">
-								<h3 class="card-title"><a href="">Lorem ipsum dolor sit.</a></h3>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, at.</p>
+								<h3 class="card-title"><a href="project-single-pam.php">Pam's Writing Challenge</a></h3>
+								<p class="card-text">a website that users can share their own writings.</p>
 							</div>
 						</div>
 						<div class="card">
-							<img src="img/works/pamschallenge.png" alt="" class="card-img">
+							<img src="img/works/sjgh/sjghel_logo.png" alt="" class="card-img">
 							<div class="card-body">
-								<h3 class="card-title"><a href="">Lorem ipsum dolor sit amet, consectetur.</a></h3>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, at.</p>
+								<h3 class="card-title"><a href="">St. Joseph's General Hospital</a></h3>
+								<p class="card-text">the redesign of the original St. Joseph's General Hospital website.</p>
 							</div>
 						</div>
 						<div class="card">
-							<img src="img/works/pamschallenge.png" alt="" class="card-img">
+							<img src="img/works/readgithub/readgithub-mini.png" alt="" class="card-img">
 							<div class="card-body">
-								<h3 class="card-title"><a href="">Lorem ipsum dolor sit.</a></h3>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, at.</p>
+								<h3 class="card-title"><a href="project-single-readgit.php">Read Your GitHub</a></h3>
+								<p class="card-text">a simple web page to display your Github status with charts.</p>
 							</div>
 						</div>
 					</div>

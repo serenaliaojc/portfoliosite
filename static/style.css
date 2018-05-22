@@ -464,6 +464,7 @@ footer {
     height: 180px;
     -o-object-fit: cover;
        object-fit: cover;
+    width: 100%;
     -o-object-position: 50% 0%;
        object-position: 50% 0%; }
   .index .contact {
@@ -485,7 +486,8 @@ footer {
 .page-header {
   margin-bottom: 3rem;
   padding: 1rem;
-  vertical-align: middle; }
+  vertical-align: middle;
+  border-bottom: 1px dashed #54a2cc; }
   .page-header img {
     max-width: 50px;
     display: inline-block; }
@@ -511,6 +513,7 @@ footer {
           font-size: 1rem; }
 
 .page {
+  margin-top: 5rem;
   min-height: 320px; }
   .page h1 {
     color: #54a2cc;
@@ -536,10 +539,15 @@ footer {
   margin: 2rem auto; }
 .project-single .project-show {
   text-align: center; }
+.project-single .carousel-indicators li {
+  background: #aaa; }
+  .project-single .carousel-indicators li.active {
+    background: #54a2cc; }
 .project-single .carousel-item img {
   height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
   -o-object-position: 50% 0%;
      object-position: 50% 0%; }
 .project-single .project-tech img {

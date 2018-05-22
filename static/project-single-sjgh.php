@@ -1,13 +1,13 @@
 <?php 
-$page_title = "Pam's Writing Challenge - Serena Liao";
+$page_title = 'Project Single - Serena Liao';
 include_once 'parts/header.php'; 
 ?>
 
 <?php include_once 'parts/header-page.php'; ?>
 
 <div class="project-single page">
-	<h1>Pam's Writing Challenge</h1>
-	<p class="page-intro">Pam’s Writing Challenge is a website that users can share their own writings. They can set up different challenges, assignments or prompts for people to study together.</p>
+	<h1>One Project</h1>
+	<p class="page-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nisi natus unde, asperiores, sapiente eaque soluta suscipit, molestias sunt consequatur fugit reprehenderit quo saepe. Ullam.</p>
 
 	<div class="project-show">
 		<div id="project-carousel" class="carousel slide" data-ride="carousel">
@@ -15,29 +15,21 @@ include_once 'parts/header.php';
 		    <li data-target="#project-carousel" data-slide-to="0" class="active"></li>
 		    <li data-target="#project-carousel" data-slide-to="1"></li>
 		    <li data-target="#project-carousel" data-slide-to="2"></li>
-		    <li data-target="#project-carousel" data-slide-to="3"></li>
-		    <li data-target="#project-carousel" data-slide-to="4"></li>
 		  </ol>
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img class="d-block w-100" src="img/works/pamschallenge/pamschallenge1.png" alt="First slide">
+		      <img class="d-block w-100" src="img/photo.jpg" alt="First slide">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="img/works/pamschallenge/pamschallenge2.png" alt="Second slide">
+		      <img class="d-block w-100" src="img/works/pamschallenge.png" alt="Second slide">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="img/works/pamschallenge/pamschallenge3.png" alt="Third slide">
-		    </div>
-		    <div class="carousel-item">
-		      <img class="d-block w-100" src="img/works/pamschallenge/pamschallenge4.png" alt="Third slide">
-		    </div>
-		    <div class="carousel-item">
-		      <img class="d-block w-100" src="img/works/pamschallenge/pamschallenge5.png" alt="Third slide">
+		      <img class="d-block w-100" src="img/works/pamschallenge.png" alt="Third slide">
 		    </div>
 		  </div>
 		</div>
 
-		<button><a href="http://www.uffabutt.ca/website/">View Live Site</a></button>
+		<button><a href="">View Live Site</a></button>
 	</div>
 
 	<div class="project-tech">
