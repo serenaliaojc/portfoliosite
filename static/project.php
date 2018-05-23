@@ -1,5 +1,5 @@
 <?php 
-$page_title = 'Project - Serena Liao';
+$page_title = 'Works - Serena Liao';
 include_once 'parts/header.php'; 
 ?>
 
@@ -7,48 +7,27 @@ include_once 'parts/header.php';
 
 <div class="project page">
 	<h1>My Works.</h1>
-	<p class="page-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum autem iste voluptates obcaecati consequatur nulla fugit magnam asperiores dignissimos iusto!</p>
-	<div class="card-columns">
+	<p class="page-intro">Here are the projects I feel that are good enough to show you. I hope you like them.</p>
+	<div class="card-deck">
 		<div class="card">
-			<img src="img/works/pamschallenge.png" alt="" class="card-img">
+			<img src="img/works/pamschallenge/logo_mini.png" alt="" class="card-img">
 			<div class="card-body">
-				<h3 class="card-title"><a href="">Lorem ipsum dolor sit.</a></h3>
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, at.</p>
+				<h3 class="card-title"><a href="project-single-pam.php">Pam's Writing Challenge</a></h3>
+				<p class="card-text">a website that users can share their own writings.</p>
 			</div>
 		</div>
 		<div class="card">
-			<img src="img/works/pamschallenge.png" alt="" class="card-img">
+			<img src="img/works/sjgh/sjghel_logo.png" alt="" class="card-img">
 			<div class="card-body">
-				<h3 class="card-title"><a href="">Lorem ipsum dolor sit.</a></h3>
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, at.</p>
+				<h3 class="card-title"><a href="project-single-sjgh.php">St. Joseph's General Hospital</a></h3>
+				<p class="card-text">the redesign of the original St. Joseph's General Hospital website.</p>
 			</div>
 		</div>
 		<div class="card">
-			<img src="img/works/pamschallenge.png" alt="" class="card-img">
+			<img src="img/works/readgithub/readgithub-mini.png" alt="" class="card-img">
 			<div class="card-body">
-				<h3 class="card-title"><a href="">Lorem ipsum dolor sit.</a></h3>
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, at.</p>
-			</div>
-		</div>
-		<div class="card">
-			<img src="img/works/pamschallenge.png" alt="" class="card-img">
-			<div class="card-body">
-				<h3 class="card-title"><a href="">Lorem ipsum dolor sit.</a></h3>
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, at.</p>
-			</div>
-		</div>
-		<div class="card">
-			<img src="img/works/pamschallenge.png" alt="" class="card-img">
-			<div class="card-body">
-				<h3 class="card-title"><a href="">Lorem ipsum dolor sit.</a></h3>
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, at.</p>
-			</div>
-		</div>
-		<div class="card">
-			<img src="img/works/pamschallenge.png" alt="" class="card-img">
-			<div class="card-body">
-				<h3 class="card-title"><a href="">Lorem ipsum dolor sit.</a></h3>
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, at.</p>
+				<h3 class="card-title"><a href="project-single-readgit.php">Read Your GitHub</a></h3>
+				<p class="card-text">a simple web page to display your Github status with charts.</p>
 			</div>
 		</div>
 	</div>

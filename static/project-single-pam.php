@@ -42,21 +42,22 @@ include_once 'parts/header.php';
 
 	<div class="project-tech">
 		<h2>Technologies.</h2>
-		<div class="row">
-			<div class="col-2"><img src="img/logo-blue.png" alt=""></div>
-			<div class="col-2"><img src="img/logo-blue.png" alt=""></div>
-			<div class="col-2"><img src="img/logo-blue.png" alt=""></div>
-			<div class="col-2"><img src="img/logo-blue.png" alt=""></div>
-			<div class="col-2"><img src="img/logo-blue.png" alt=""></div>
-			<div class="col-2"><img src="img/logo-blue.png" alt=""></div>
+		<div class="row align-items-center">
+			<div class="col-2"><img src="img/techlogos/php-1.svg" alt=""></div>
+			<div class="col-2"><img src="img/techlogos/mysql.svg" alt=""></div>
+			<div class="col-2"><img src="img/techlogos/jquery-1.svg" alt=""></div>
+			<div class="col-2"><img src="img/techlogos/bootstrap-4.svg" alt=""></div>
+			<div class="col-2"><img src="img/techlogos/html-5.svg" alt=""></div>
+			<div class="col-2"><img src="img/techlogos/css-3.svg" alt=""></div>		
 		</div>
 	</div>
 
 	<div class="project-details">
 		<h2>Details.</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi inventore vitae quae sit nihil eveniet nostrum error nobis maiores, illo, facere. Nulla nihil atque odit dolor suscipit distinctio, dolorem reiciendis. Quisquam placeat voluptatum modi veniam sunt nam, ullam voluptatibus. Facilis ipsa odit eos! Nisi vel ut nulla ipsum quisquam sequi.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum fuga, laboriosam similique, quisquam veniam laborum repellendus laudantium itaque doloribus nam. Animi aperiam fugiat iusto ab labore tempore enim voluptatem tenetur, voluptas iure dolorum, eos laboriosam dolore veniam blanditiis, quisquam pariatur. Mollitia nesciunt sapiente, nostrum inventore eveniet, a, tenetur enim atque quia quae magni qui facere nam impedit nihil error, recusandae quod ipsum ipsam cum aliquam dolorem quibusdam incidunt non quo. Explicabo dolore doloribus commodi odio assumenda tempora, accusantium, repudiandae minus sed, excepturi obcaecati. Beatae, non magni amet odit esse voluptates aliquid, quos qui omnis laudantium doloribus debitis, vero voluptatem harum!</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam consectetur cumque voluptate eum ad illo, laudantium eaque minus corporis! Quisquam dolore nostrum eum aperiam impedit eligendi placeat modi, in dignissimos vel magni nisi provident facere adipisci cumque voluptas laboriosam natus voluptatem architecto voluptates, quo rem id. Dolore atque illum fuga!</p>
+		<p>Here is the final group project for my PHP course. Pam’s Writing Challenge is a website that users can share their own writings. </p>
+		<p>I built two features for this website. One is the main feature challenge, the other is the news. I am also responsible for designing the database schema and its maintenance. </p>
+		<p>The challenge feature allows the site users to create different challenges and share them with the others. The users can browse and find the challenges they like and accept it, then submit their own writing to complete the challenge.</p>
+		<p>The news feature acts as the news broad for this website. The visitors can read and search the news published by the site admins. </p>
 	</div>
 
 </div>

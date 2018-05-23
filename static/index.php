@@ -57,7 +57,7 @@ include_once 'parts/header.php';
 						<div class="card">
 							<img src="img/works/sjgh/sjghel_logo.png" alt="" class="card-img">
 							<div class="card-body">
-								<h3 class="card-title"><a href="">St. Joseph's General Hospital</a></h3>
+								<h3 class="card-title"><a href="project-single-sjgh.php">St. Joseph's General Hospital</a></h3>
 								<p class="card-text">the redesign of the original St. Joseph's General Hospital website.</p>
 							</div>
 						</div>

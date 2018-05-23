@@ -34,7 +34,7 @@ include_once 'parts/header.php';
 
 	<div class="project-tech">
 		<h2>Technologies.</h2>
-		<div class="row">
+		<div class="row align-items-center">
 			<div class="col-2"><img src="img/logo-blue.png" alt=""></div>
 			<div class="col-2"><img src="img/logo-blue.png" alt=""></div>
 			<div class="col-2"><img src="img/logo-blue.png" alt=""></div>
