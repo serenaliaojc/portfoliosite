@@ -9,13 +9,13 @@
 .index {
 	/* # Block */
 	.block {
-		min-height: 576px;
+		min-height: 768px;
 	}
 
 	/* # Header */
 	header {
 		// padding: 9rem 0 auto 0;
-		padding-top: 9rem;
+		padding-top: 12rem;
 		text-align: center;
 		img {
 			max-width: 180px;
@@ -36,6 +36,7 @@
 	h2 {
 		color: $color__main-brand;
 		text-align: center;
+		margin-top: 1rem;
 		margin-bottom: 3rem;
 	}
 	h3 {
@@ -78,6 +79,7 @@
 
 	/* # Contact */
 	.contact {
+		padding-top: 3rem;
 		min-height: 400px;
 		text-align: center;
 		ul {

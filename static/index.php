@@ -37,9 +37,9 @@ include_once 'parts/header.php';
 							<figcaption><span>Serena</span> Liao</figcaption>
 						</figure>
 						<div class="col-md-8">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptatibus ea, reiciendis aut nisi voluptates deleniti pariatur, quas qui tempore perspiciatis odio assumenda, possimus a maiores magnam necessitatibus ipsa praesentium tenetur. Recusandae provident sunt in quidem, explicabo veniam, quibusdam amet rerum. Nemo atque sit nobis recusandae architecto iure, voluptas iusto.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo vitae quod enim alias optio sequi quae nihil sunt dolores in?</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis est magnam, incidunt excepturi ipsam culpa reiciendis aperiam dicta cumque soluta.</p>
+							<p>A learner who likes solving puzzles but also strict to the rules, ending up being a web developer, now armed herself with all kinds of tools and enjoying figuring out how to build an application. </p>
+							<p>She likes to try new things and is proud of her ability to think fast and learn fast. With a touch for the codes, she considers web development as Lego building: know what to build and how to build, then start collecting pieces and assembling them. It is both challenging and entertaining.</p>
+							<p>Yep, that is me, Serena. And I do full-stack.</p>
 						</div>
 					</div>					
 				</section>
@@ -62,15 +62,15 @@ include_once 'parts/header.php';
 							</div>
 						</div>
 						<div class="card">
-							<img src="img/works/readgithub/readgithub-mini.png" alt="" class="card-img">
+							<img src="img/works/artsys/artsys-logo.png" alt="" class="card-img">
 							<div class="card-body">
-								<h3 class="card-title"><a href="project-single-readgit.php">Read Your GitHub</a></h3>
-								<p class="card-text">a simple web page to display your Github status with charts.</p>
+								<h3 class="card-title"><a href="project-single-artsys.php">Chinese Artist Evaluation System</a></h3>
+								<p class="card-text">the visualized platform for Chinese Artist Evaluation System.</p>
 							</div>
 						</div>
 					</div>
 					<div class="row justify-center">
-						<button><a href="">View More</a></button>
+						<button><a href="project.php">View More</a></button>
 					</div>
 				</section>
 

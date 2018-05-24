@@ -426,9 +426,9 @@ footer {
   /* # Works */
   /* # Contact */ }
   .index .block {
-    min-height: 576px; }
+    min-height: 768px; }
   .index header {
-    padding-top: 9rem;
+    padding-top: 12rem;
     text-align: center; }
     .index header img {
       max-width: 180px; }
@@ -442,6 +442,7 @@ footer {
   .index h2 {
     color: #54a2cc;
     text-align: center;
+    margin-top: 1rem;
     margin-bottom: 3rem; }
   .index h3 {
     font-size: 1.2rem; }
@@ -468,6 +469,7 @@ footer {
     -o-object-position: 50% 0%;
        object-position: 50% 0%; }
   .index .contact {
+    padding-top: 3rem;
     min-height: 400px;
     text-align: center; }
     .index .contact ul {
@@ -522,6 +524,12 @@ footer {
     margin: 2rem auto 3rem auto;
     max-width: 500px;
     text-indent: 2rem; }
+
+.card {
+  margin: 1rem auto; }
+
+.card-body {
+  min-height: 230px; }
 
 .card-img {
   height: 180px;
